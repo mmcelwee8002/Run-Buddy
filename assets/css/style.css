@@ -18,19 +18,30 @@ header nav ul li {display: inline;}
 
 header nav ul li a {margin: 0 30px; font-weight: lighter; font-size: 22px;}
 
+
+
 body {
     
-    color: #39a6b2; font-family: Arial, Helvetica, sans-serif;}
+    color: #39a6b2; font-family: Arial, Helvetica, sans-serif;font-size: larger;}
 
     .heart {color: red;}
 
-    
-.hero-form {background-color: #fce138; padding: 20px; width: 500px; color: #024e76;border-style: solid; border: width 3px; border-color: #024e76; 
-            position: absolute; bottom: 750px; right: 140px}
+
+ .hero-form p {margin: 5px 0 15px 0;}  
+ 
+ .hero-form h3 {font-size: larger; margin: 0px;}
+
+ .form-input {border: 1px; display: block; padding: 7px 15px; font-size: 16px; color: #024e76; width: 100%; margin-bottom: 15px;}
+
+ .hero-form label {margin: 10px 0px;}
+
+.hero-form {background-color: #fce138; padding: 20px; width: 500px; color: #024e76;border-style: solid; border: 3px solid; border-color: #024e76; padding: 20px;            position: absolute; bottom: 120px; right: 140px}
    
  /*Hero Style Start */
- .hero {background-image: url("../images/hero-bg.jpg"); height: 1000px; background-size: cover; background-position: center ;}
+ .hero {background-image: url("../images/hero-bg.jpg"); height: 1000px; background-size: cover; background-position: center ; position: relative;}
 
+ .hero-form button {color: #fce138; background-color: #024e76; border: none; padding: 10px 20px; font-size: 16px;}
+ 
  /*Hero Style End */
 
     footer {background: #fce138; width: 100%; padding: 40px 35px;}
