@@ -24,11 +24,12 @@ body {
 
     .heart {color: red;}
 
-    section {padding: 10px}
-
+    
+.hero-form {background-color: #fce138; padding: 20px; width: 500px; color: #024e76;border-style: solid; border: width 3px; border-color: #024e76; 
+            position: absolute; bottom: 750px; right: 140px}
    
  /*Hero Style Start */
- .hero {background-image: url("../images/hero-bg.jpg"); height: 1000px; background-size: cover; background-position: center;}
+ .hero {background-image: url("../images/hero-bg.jpg"); height: 1000px; background-size: cover; background-position: center ;}
 
  /*Hero Style End */
 
@@ -37,6 +38,6 @@ body {
     footer div {float: right; line-height: 1.5; text-align: right;}
     footer a {color: #024e76;}
 
-   
+ 
     
   
