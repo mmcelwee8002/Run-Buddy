@@ -4,6 +4,20 @@
 .page-title {color: #fce138; display: inline-block; border-bottom: 4px solid;padding: 0 80px 15px 80px;
 font-weight: normal; font-size: 42px;} 
     
- .secondary-content {width: 80%; margin: 0 auto; font-size: 25px; margin: 20px 0 20px 0;}  
+ .secondary-content {width: 80%; margin: 0 auto; color: #024e76;}  
 
- .terms h3 {font-size: 16px; line-height: 1.5px; margin: 20px 0 20px 0; color:  red;}
+ .secondary-content h3 {font-size: 25px; margin: 20px 0;}
+
+ .secondary-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px 0;
+  }
+  
+  .secondary-content ul {
+    margin: 15px 20px;
+  }
+  
+  .secondary-content li {
+    color: #39a6b2;
+    margin: 10px 0;
