@@ -39,10 +39,10 @@ body {
     position: absolute; bottom: 120px; right: 140px}
    
  /*Hero Style Start */
- .hero {background-image: url("../images/hero-bg.jpg"); height: 1000px; background-size: cover; background-position: center ; position: relative;}
+ .hero {background-image: url("../images/hero-bg\ flipped.jpg"); height: 1000px; background-size: cover; background-position: center ; position: relative;}
 
  .hero-form button {color: #fce138; background-color: #024e76; border: none; padding: 10px 20px; font-size: 16px;}
- 
+ hero-cta {color: blue;}
 
 
 .intro {text-align: center; font-size: 35px;padding: 25px;}
