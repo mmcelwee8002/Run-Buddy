@@ -3,12 +3,13 @@
 
 /*appies sytle to <header>*/
 header {padding: 20px 35px;
-    background-color: #39a6b2;}
+    background-color: #39a6b2;display: flex; justify-content: space-between;
+  flex-wrap: wrap;}
 
 header h1 { font-weight: bold;
 font-size: 36px;
 color: #fce138;
-margin: 0; display: inline;}
+margin: 0; }
 
 header a {color: #fce138; text-decoration: none;}
 
