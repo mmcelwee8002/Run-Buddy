@@ -73,6 +73,61 @@ body {
 .text-left {text-align: left;}
 .text-right {text-align: right;}
 
+.reach-out {width: 900px; height: 500px ;margin: 0 auto 30px auto; background: #024e76; color: #fce138;overflow: auto;}
+.reach-out-border {border-color: #024e76;}
+.reach-out-secondary-border {border-color: #39a6b2;}
+.reach-out-title {font-size: 55xp; color: #fce138; margin-bottom: 35px; padding: 0 100px 20px 100px; display: inline-block; border-bottom: 3px solid;}
+
+
+/* REACH OUT STYLES START */
+.contact {
+    text-align: center;
+    background: #024e76;
+  }
+  
+  .contact h2 {
+    color: #fce138;
+  }
+  
+  .contact-info iframe {
+    width: 400px;
+  height: 400px;
+  }
+  
+  .contact-info div {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: white;
+  }
+  
+  .contact-info h3 {
+    color: #fce138;
+    font-size: 32px;
+  }
+  
+  .contact-info p, .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+  }
+  
+  .contact-info a {
+    color: #fce138;
+  }
+  
+  
+  /* REACH OUT STYLES END */
+
+
+
+
+
+
+
 
 
     footer {background: #fce138; width: 100%; padding: 40px 35px;}
