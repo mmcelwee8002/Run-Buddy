@@ -17,7 +17,7 @@ header nav {display:flex; flex-wrap: wrap; justify-content: space-between; align
 
 header nav ul li {display: inline;}
 
-header nav ul li a {margin: 0 30px; font-weight: lighter; font-size: 1.55vw;}
+header nav ul li a {padding: 10px 15px; font-weight: lighter; font-size: 1.55vw;}
 
 
 
@@ -26,8 +26,8 @@ body {
     color: #39a6b2; font-family: Arial, Helvetica, sans-serif;font-size: larger;}
 
     
-.hero-cta {width: 35%; text-align: right; margin: 3.5%; color: #fff; font-size: 18px; line-height: 1.3;}
-.hero-cta {font-style: italic; font-size: 55px; color:#fce138;}
+.hero-cta {width: 35%; text-align: right; margin: 3.5%; color: #fff; font-size: 18px; line-height: 1.2;
+  font-style: italic; font-size: 55px; color:#fce138;}
 
  .hero-form p {margin: 5px 0 15px 0;}  
  
@@ -40,7 +40,7 @@ body {
 .hero-form {background-color: #fce138; padding: 20px; color: #024e76;border-style: solid; border: 3px solid; border-color: #024e76; width: 40%; margin: 3.5%;}
    
  /*Hero Style Start */
- .hero {background-image: url("../images/hero-bg\ flipped.jpg"); display: flex; justify-content: center; flex-wrap: wrap; background-size: cover; background-position: center; }
+ .hero {background-image: url("../images/hero-bg\ flipped.jpg"); align-items: flex-start; display: flex; justify-content: center; flex-wrap: wrap; background-size: cover; background-position: center;  }
 
  .hero-form button {color: #fce138; background-color: #024e76; border: none; padding: 10px 20px; font-size: 16px;}
  hero-cta {color: blue;}
@@ -51,7 +51,7 @@ body {
 
 .steps {background: #fce138; font-size: 35px; padding: 75px;}
 
-.section-title {font-size: 55xp; color: #024e76; border-bottom: 3px solid; padding-bottom: 20px; text-align: center; margin: 0 auto 35px auto; width: 50%;}
+.section-title {font-size: 48xp; color: #024e76; border-bottom: 3px solid; padding-bottom: 20px; text-align: center; margin: 0 auto 35px auto; width: 50%;}
 
 .primary-border {border-color: #fce138;}
 .secondary-border {border-color: #39a6b2;}
@@ -175,3 +175,12 @@ body {
     footer div {line-height: 1.5; text-align: right;}
     footer a {color: #024e76;}
     .heart {color: red;}
+
+
+
+
+/*Nothing below these*/
+
+    /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {}
+    
