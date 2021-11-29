@@ -102,12 +102,13 @@ border-radius: 10px; background-color: rgba(255, 255, 588, 0.75);}
 .step {margin: 50px;
   padding-bottom: 50px;
   width: 80%;
-  border-bottom: 1px solid #39a6b2;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;}
  
+.step:not(:last-child) {border-bottom: 1px solid #39a6b2;}
+
 /* MEET THE TRAINERS START */
 
 .trainers {width: 100%; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-around;}
