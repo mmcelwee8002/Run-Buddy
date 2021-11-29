@@ -4,12 +4,20 @@
 /*appies sytle to <header>*/
 header {padding: 20px 35px;
     background-color: #39a6b2;display: flex; justify-content: space-between;
-  flex-wrap: wrap;}
+  flex-wrap: wrap;
+position: sticky; top: 0;
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+background-image: url("../images/hero-bg\ flipped.jpg");
+background-size: cover; background-position: 80%;
+background-attachment: fixed; }
 
 header h1 { font-weight: bold;
 font-size: 36px;
 color: #fce138;
-margin: 0; }
+margin: 0; 
+text-shadow: 0 0 10px rgba(0, 0, 0, 5);}
 
 header a {color: #fce138; text-decoration: none;}
 
@@ -17,7 +25,10 @@ header nav {display:flex; flex-wrap: wrap; justify-content: space-between; align
 
 header nav ul li {display: inline;}
 
-header nav ul li a {padding: 10px 15px; font-weight: lighter; font-size: 1.55vw;}
+header nav ul li a {padding: 10px 15px; font-weight: lighter; font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 5)}
+
+  header nav ul li a:hover {background: #fce138; color: #024e76; border-radius: 15px; text-shadow: none;}
 
 
 
@@ -27,7 +38,8 @@ body {
 
  /*Hero Style Start */
 
- .hero {background-image: url("../images/hero-bg\ flipped.jpg"); align-items: flex-start; display: flex; justify-content: center; flex-wrap: wrap; background-size: cover; background-position: center;  }   
+ .hero {background-image: url("../images/hero-bg\ flipped.jpg"); align-items: flex-start; display: flex; justify-content: center; flex-wrap: wrap; background-size: cover; 
+  background-position: 80%; background-attachment: fixed;}   
 
  .hero-cta {width: 35%; text-align: right; margin: 3.5%; color: #fff; font-size: 18px; line-height: 1.2;}
 
@@ -35,28 +47,33 @@ body {
     font-style: italic;
     font-size: 55px;
     color: #fce138;
-  }
+    text-shadow: 0 0 10px rgba(0, 0, 0, 5)}
 
   .hero-form {
     border: 3px solid #024e76;
-    background-color: #fce138;
+    background-color: rgba(252, 225, 56, .8);
     padding: 20px;
     color: #024e76;
     width: 40%;
     margin: 3.5%;
+    border-radius: 15px;
   }
   .hero-form h3 {font-size: larger; margin: 0px;}
 
  .hero-form p {margin: 5px 0 15px 0; color:#024e76;}  
 
 
- .form-input {border: 1px; display: block; padding: 7px 15px; font-size: 16px; color: #024e76; width: 100%; margin-bottom: 15px;}
+ .form-input {border: 1px; display: block; padding: 7px 15px; font-size: 16px; color: #024e76; width: 100%; margin-bottom: 15px;
+border-radius: 10px; background-color: rgba(255, 255, 588, 0.75);}
+.form-input:focus {background-color: rgba(255, 255, 255, 1); outline: none;}
 
  .hero-form label {margin: 10px 0px;}
 
 
  .hero-form button {color: #fce138; background-color: #024e76; border: none; padding: 10px 20px; font-size: 16px;}
- hero-cta {color: blue;}
+ hero-cta {color: blue; border-radius: 10px;}
+
+ .hero-form button:hover {background-color: #39a6b2;}
 
 /* HERO STYLES END */
 
@@ -162,7 +179,11 @@ body {
   width: 100%;
   margin-bottom: 15px;
   margin-top: 5px;
-}
+  border-radius: 10px;
+background-color: rgba(255, 255, 255, 1)}
+
+.contact-form:focus, .contact-form textarea {background-color: rgba(255, 255 , 255, .5); outline: none;}
+
 
 .contact-form button {
   width: 100%;
@@ -172,8 +193,10 @@ body {
   text-align: center;
   padding: 15px 0;
   font-size: 16px;
+  border-radius: 10px;
 }
 
+.contact-form button:hover {color: #fce138; background: #39a6b2;}
 .contact-info a {
   color: #fce138;
 }
@@ -207,16 +230,13 @@ body {
 /*Nothing below these*/
 
     /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 980px) {
 
-  header { padding-bottom: 0; justify-content: center;}
-
-}
-  
-header h1 {
-  width: 100%;
-  text-align: center;
-}
+    @media screen and (max-width: 980px) {
+      header {
+        padding-bottom: 0; justify-content: center; position: relative; }
+    
+      header h1 {width: 100%;text-align: center;}
+    
 
 header nav ul {margin-top: 20px; width: 100%; justify-content: center;}
 
@@ -293,6 +313,7 @@ footer h2, footer div {text-align: center; width: 100%;}
   .contact-info > * {
     flex: 0 100%;
   }
-.contact-form {order: 3}
-
+  .contact-form {
+    order: 3;
+  }
 }
